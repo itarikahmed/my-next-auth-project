@@ -1,18 +1,14 @@
 import React from "react";
-// import { AuthContext } from "./AuthContext";
 
 const Home = () => {
-  // const { user } = useContext(AuthContext);
-
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="text-center">
+    <div className="container mx-auto justify-center items-center p-4 flex flex-col min-h-screen">
+      <div className="text-center m-10">
         <h1 className="text-4xl font-bold mb-4">Welcome to our website!</h1>
-        <div>
-          <p className="text-lg">Logged in as:</p>
-          <p className="text-lg font-bold">name</p>
-          <p className="text-lg">Email</p>
-        </div>
+        <p className="text-lg">
+          This is a website that uses Next.js and NextAuth.js for
+          authentication.
+        </p>
       </div>
     </div>
   );

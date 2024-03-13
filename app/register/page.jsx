@@ -3,8 +3,7 @@
 import axios from "axios";
 import Link from "next/link";
 import React, { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 
 const Register = () => {
@@ -107,7 +106,6 @@ const Register = () => {
           </p>
         </div>
       </div>
-      <ToastContainer />
     </div>
   );
 };
